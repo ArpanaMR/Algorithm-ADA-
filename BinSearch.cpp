@@ -1,4 +1,4 @@
-#include<bits/stdc++.h> 
+
 #include<iostream>
 using namespace std; 
 int Occur(int arr[], int l, int h, int x, int n) 
@@ -31,7 +31,7 @@ int Occur(int arr[], int l, int h, int x, int n)
     	first =  Occur(ar, 0, n-1, key, n);
     	
     	if(first == -1){
-      		cout<<"first occurance=-1,last occurance=-1,count=0\n";
+      		cout<<"first occurrence=-1,last occurrence=-1,count=0\n";
     	}	
     	else{
       		cout<<"First Occurrence at index = "<< first;
