@@ -60,3 +60,18 @@ int main()
          
     return 0;  
 } 
+
+/*
+Enter size of array  
+5
+Enter elements
+10 -1 0 2 56
+Sorted array:
+-1
+0
+2
+10
+56
+
+Time taken by program is : 0.000003
+*/
