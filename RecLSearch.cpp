@@ -14,11 +14,13 @@ int linearSearch(int arr[], int n, int x)
    
 }
 
+
 int main()
 {
     int n;
    int arr[n];
    int x;
+   clock_t starttime,endtime;
 
    cout<<"Enter size of array"<<endl;
    cin>>n;
@@ -30,13 +32,20 @@ int main()
    cout<<"Enter key"<<endl;
    cin>>x;
 
-   int result = linearSearch(arr, n-1, x);
+  starttime = clock(); 
+    int result = linearSearch(arr,n-1, x);
+    endtime = clock(); 
+    
    if(result == -1)
         cout<<"Element is not present in array"<<endl;
     else
     cout<<"Element is present at index "<<result<<endl;
+    double time_taken = double(endtime - starttime) / double(CLOCKS_PER_SEC); 
+    cout << "Time taken by program is : " << fixed  
+         << time_taken << setprecision(10)<<endl; 
    return 0;
 }
+
 
 /*
 
