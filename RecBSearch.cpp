@@ -57,7 +57,7 @@ run 1
 Enter size of array
 5
 Enter elements of array
-3 7 43 5 -9
+-3 7 43 59 666
 Enter key
 0
 Element is not present in array
@@ -66,7 +66,7 @@ run 2
 Enter size of array
 6
 Enter elements of array
-8 6 0 5 99
+-55 -5 0 1 3 56
 Enter key
 0
 Element is present at index 2
