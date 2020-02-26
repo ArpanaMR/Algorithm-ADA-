@@ -38,11 +38,17 @@ int main()
    cout<<"Enter key"<<endl;
    cin>>x;
 
-   int result = binarySearch(arr, 0, n-1, x);
+  starttime = clock(); 
+    int result = binarySearch(arr, 0, n-1, x);
+    endtime = clock(); 
+    
    if(result == -1)
         cout<<"Element is not present in array"<<endl;
     else
     cout<<"Element is present at index "<<result<<endl;
+    double time_taken = double(endtime - starttime) / double(CLOCKS_PER_SEC); 
+    cout << "Time taken by program is : " << fixed  
+         << time_taken << setprecision(10)<<endl; 
    return 0;
 }
 
