@@ -52,3 +52,14 @@ endtime = clock();
     
     return 0; 
 } 
+/*Enter array size
+5
+Enter elements
+0 -9 177 8 100
+Sorted Array is
+-9
+0
+8
+100
+177
+Time taken by program is : 0.000034
