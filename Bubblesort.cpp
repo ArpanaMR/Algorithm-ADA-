@@ -63,4 +63,16 @@ Sorted Array is
 100
 177
 Time taken by program is : 0.000034
+
+Enter array size
+5
+Enter elements
+-9 0 8 100 177
+Sorted Array is
+-9
+0
+8
+100
+177
+Time taken by program is : 0.000016
 */
